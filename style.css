@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #129799;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35vw;
+    list-style: none;
+    color: white;
+}
+li:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+main{
+    background-color: #FFA185;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+    position: relative;
+    left: 3.8%;
+}
+h2{
+    color: white;
+}
+.Imagens img{
+    width: 40%;
+}
+.Imagens{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+footer{
+    background-color: #129799;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ImagensFooter img{
+    width: 3vw;
+}
+.ImagensFooter{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
