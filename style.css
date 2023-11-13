@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
 }
 header{
     background-color: #129799;
@@ -17,7 +18,7 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    width: 35vw;
+    width: 45vw;
     list-style: none;
     color: white;
 }
@@ -51,6 +52,9 @@ section{
 h2{
     color: white;
 }
+h3{
+    cursor: pointer;
+}
 .Imagens img{
     width: 40%;
 }
@@ -74,4 +78,47 @@ footer{
     width: 20%;
     display: flex;
     justify-content: space-evenly;
+}
+@media(max-width: 768px){
+    .Life{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .text{
+        text-align: center;
+        left: 0%;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    section{
+        justify-content: space-around;
+        height: 120vh;
+    }
+    .Imagens{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Imagens img{
+        width: 75%;
+    }
+    .Imagens img:hover{
+        width: 85%;
+    }
+    .ImagensFooter img{
+        width: 10vw;
+    }
+    .ImagensFooter{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .navFooter{
+        width: 100%;
+    }
 }
