@@ -86,6 +86,7 @@ footer{
     nav{
         width: 100%;
         justify-content: space-around;
+        text-align: center;
     }
     .text{
         text-align: center;
